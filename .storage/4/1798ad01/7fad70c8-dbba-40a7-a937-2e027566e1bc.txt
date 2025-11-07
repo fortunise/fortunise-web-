@@ -1,0 +1,3 @@
+$ cd /workspace/shadcn-ui
+$ cd /workspace/shadcn-ui && sed -i '574,576c\                  <CardTitle className="text-2xl text-center mb-2">\n                    Industry based comprehensive business plans or Pitch Decks for Loans or Raising Funds\n                  </CardTitle>' src/pages/Index.tsx
+
