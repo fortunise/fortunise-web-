@@ -1,0 +1,20 @@
+$ cd /workspace/shadcn-ui && find . -type f -name "*.tsx" -o -name "*.ts" -o -name "*.json" -o -name "*.html" -o -name "*.css" | grep -v node_modules | sort
+./.vite/deps/_metadata.json
+./.vite/deps/package.json
+./index.html
+./package.json
+./src/App.tsx
+./src/components/ui/button.tsx
+./src/components/ui/card.tsx
+./src/components/ui/separator.tsx
+./src/components/ui/sonner.tsx
+./src/components/ui/tooltip.tsx
+./src/index.css
+./src/lib/utils.ts
+./src/main.tsx
+./src/pages/Index.tsx
+./src/pages/NotFound.tsx
+./tailwind.config.ts
+./tsconfig.json
+./tsconfig.node.json
+./vite.config.ts

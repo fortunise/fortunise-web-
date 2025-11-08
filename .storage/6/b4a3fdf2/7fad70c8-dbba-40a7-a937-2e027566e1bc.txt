@@ -1,0 +1,39 @@
+$ cd /workspace/shadcn-ui && find . -type f -name "*.tsx" -o -name "*.ts" -o -name "*.json" -o -name "*.html" -o -name "*.css" | grep -v node_modules | sort
+./.vite/deps/_metadata.json
+./.vite/deps/package.json
+./index.html
+./package.json
+./src/App.tsx
+./src/components/ui/button.tsx
+./src/components/ui/card.tsx
+./src/components/ui/separator.tsx
+./src/components/ui/sonner.tsx
+./src/components/ui/tooltip.tsx
+./src/index.css
+./src/lib/utils.ts
+./src/main.tsx
+./src/pages/Index.tsx
+./src/pages/NotFound.tsx
+./tailwind.config.ts
+./tsconfig.json
+./tsconfig.node.json
+./vite.config.ts
+$ cd /workspace/shadcn-ui && ls -la
+
+total 30846
+drwxrwxr-x  54 root root  8441856 Nov  6 14:43 .
+drwxr-xr-x 259 root root 14737408 Nov  7 18:14 ..
+drwxrwxr-x   3 root root     8192 Nov  5 10:57 .mgx
+drwxrwxr-x  19 root root  7856128 Nov  5 10:57 .vite
+-rw-rw-r--   1 root root      812 Nov  5 10:57 eslint.config.js
+-rw-rw-r--   1 root root     1069 Nov  5 10:57 index.html
+drwxr-xr-x   3 root root       19 Nov  7 18:14 node_modules
+-rw-rw-r--   1 root root     1619 Nov  5 10:57 package.json
+-rw-r--r--   1 root root   132084 Nov  6 14:39 pnpm-lock.yaml
+-rw-rw-r--   1 root root       80 Nov  5 10:57 postcss.config.js
+drwxrwxr-x   7 root root   290816 Nov  5 10:57 public
+drwxrwxr-x  17 root root   110592 Nov  5 10:57 src
+-rw-rw-r--   1 root root     1951 Nov  5 10:57 tailwind.config.ts
+-rw-rw-r--   1 root root      628 Nov  5 10:57 tsconfig.json
+-rw-rw-r--   1 root root      212 Nov  5 10:57 tsconfig.node.json
+-rw-rw-r--   1 root root      301 Nov  5 10:57 vite.config.ts
