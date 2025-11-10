@@ -1,5 +1,4 @@
 ﻿{
-  "buildCommand": "cp -r build/v4/* public/",
-  "outputDirectory": "public",
-  "framework": "other"
+  "version": 2,
+  "public": true
 }
