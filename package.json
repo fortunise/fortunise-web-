@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cp -r build/v4/* ."
+    "build": "mkdir -p public && cp -r build/v4/* public/"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0"
