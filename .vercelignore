@@ -1,3 +1,6 @@
 node_modules
 .git
-build
+# Ignore other build outputs but include build/v4 which contains the static site to deploy
+build/*
+!build/v4
+!build/v4/**
