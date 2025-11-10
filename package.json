@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "xcopy /E /I build\\v4 dist"
+    "start": "serve build/v4",
+    "build": "echo \"No build required\""
   },
   "dependencies": {
-    "@vercel/analytics": "^1.5.0"
+    "@vercel/analytics": "^1.5.0",
+    "serve": "^14.2.5"
   }
 }
