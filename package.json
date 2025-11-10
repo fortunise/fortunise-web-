@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "serve public",
-    "build": "mkdir public && cp -r build/v4/* public/"
+  "build": "node ./scripts/copy-files.js",
+  "copy-files": "node ./scripts/copy-files.js",
+    "start": "serve dist"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
