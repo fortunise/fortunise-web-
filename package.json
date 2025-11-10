@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "serve build/v4",
-    "build": "echo \"No build required\""
+    "start": "serve public",
+    "build": "mkdir public && cp -r build/v4/* public/"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
